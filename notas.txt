@@ -1,0 +1,31 @@
+======= Clase 1 =======
+React es multiplataforma: Web, mobile, desktop
+
+Web: React DOM
+Mobile: React Native
+
+Para crear un entorno de desarrollo con react:
+    //Para instalar react en la misma carpeta
+    npx create-react-app ./
+
+    Usamos sintaxis jsx
+
+======= Clase 2 =======
+Componentes vs Elementos / Props vs atributos
+
+convencion, El nombre de un componente inicia con letra mayuscula
+
+En jsx, usamos className en vez de class para identificar una clase.
+
+Los componentes son invisibles para HTML pero son visibles para React
+¿Qué renderiza HTML?
+Babel transforma los componentes de HTML en JS
+
+Componentes <App />
+Propiedad <App saludo="hola"/>
+    saludo = hola
+
+    Hay una propiedad especial, children.
+    <App>
+        Buenaaas
+    </App>
